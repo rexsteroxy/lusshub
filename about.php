@@ -1,4 +1,4 @@
-<?php include ('header.html');?>
+<?php include ('includes/header.html');?>
 
 <!-- start banner Area -->
 	<section class="banner-area relative" id="home">
@@ -60,4 +60,4 @@
 		</div>
 	</section>
 	<!-- End home-about Area -->
-	<?php include ('footer.html'); ?>
+	<?php include ('includes/footer.html'); ?>

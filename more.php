@@ -1,4 +1,4 @@
-<?php include ('header.html');?>
+<?php include ('includes/header.html');?>
 	<section class="contact-page-area section-gap" id="contact">
 		<div class="container">
 			<div class="section-top-border">
@@ -35,4 +35,4 @@
 					</div>
 				</div>
 				</section>
-					<?php include ('footer.html');?>
+					<?php include ('includes/footer.html');?>

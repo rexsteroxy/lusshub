@@ -77,5 +77,5 @@
 				</div>	
 			</section>
 			<!-- End contact-page Area -->
-<?php include ('footer.html');?>
-<?php include ('header.html');?>
+<?php include ('includes/footer.html');?>
+<?php include ('includes/header.html');?>

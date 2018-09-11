@@ -1,4 +1,4 @@
-	<?php include ('header.html');?>
+	<?php include ('includes/header.html');?>
 			<!-- start banner Area -->
 			<section class="banner-area" id="home">
 				<div class="container">
@@ -21,66 +21,130 @@
 			</section>
 			<!-- End banner Area -->
 			
-			<!-- Start sales Area -->
-			<section class="service-area section-gap" id="service">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-md-12 pb-50 header-text text-center">
-							<h1 class="mb-10">What we Bring to the Table</h1>
-							<p>
-								We are dedicated to User refined usage.
-							</p>
+			<!-- ***** Portfolio Area Start ***** -->
+	<section class="mosh-portfolio-area section_padding_100_0 clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="section-heading text-center">
+							<h2>See what we have for sell</h2>
 						</div>
-					</div>						
-					<div class="row">
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/lp.jpg" alt="">									
-								</div>
-								<h4>HP560</h4>
-								<p>
-									Cheap and affordabele. <a href="sales.php">more</a>
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/luss1.jpg" alt="">									
-								</div>
-								<h4>HP560</h4>
-								<p>
-									Cheap and affordabele.<a href="sales.php">more</a>
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/luss2.jpg" alt="">									
-								</div>
-								<h4>HP560</h4>
-								<p>
-									Cheap and affordabele. <a href="sales.php">more</a>
-								</p>
-							</div>
-						</div>	
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/luss3.jpg" alt="">									
-								</div>
-								<h4>HP560</h4>
-								<p>
-									Cheap and affordabele. <a href="sales.php">more</a>
-								</p>
-							</div>
-						</div>																		
 					</div>
-				</div>	
-			</section>
-			<!-- End sales Area -->
+				</div>
+			</div>
+		<div class="mosh-projects-menu">
+			<div class="text-center portfolio-menu">
+				<p class="active"><a href="sales.php">Click Here To View More.</a></p>
+				
+			</div>
+		</div>
+
+		<div class="mosh-portfolio">
+			<!-- Single gallery Item Start -->
+			<div class="single_gallery_item gd">
+				<img src="img/lp.jpg" alt="">
+				<div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+					<div class="port-hover-text text-center">
+						<h4>Elitebook  - #50,000</h4>
+						<h4>Ram Size - 4GB.</h4>
+						<h4>Harddisk - 250GB</h4>
+						<h4>Processor Speed - 2.40GHZ</h4>
+						<a href="contact.php">Order now</a>
+					</div>
+				</div>
+			</div>
+			<!-- Single gallery Item Start -->
+			<div class="single_gallery_item bi">
+				<img src="img/luss1.jpg" alt="">
+				<div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+					<div class="port-hover-text text-center">
+						<h4>Elitebook  - #50,000</h4>
+						<h4>Ram Size - 4GB.</h4>
+						<h4>Harddisk - 250GB</h4>
+						<h4>Processor Speed - 2.40GHZ</h4>
+						<a href="contact.php">Order now</a>
+					</div>
+				</div>
+			</div>
+			<!-- Single gallery Item Start -->
+			<div class="single_gallery_item bi">
+					<img src="img/luss1.jpg" alt="">
+					<div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+						<div class="port-hover-text text-center">
+							<h4>Elitebook  - #50,000</h4>
+						<h4>Ram Size - 4GB.</h4>
+						<h4>Harddisk - 250GB</h4>
+						<h4>Processor Speed - 2.40GHZ</h4>
+							<a href="contact.php">Order now</a>
+						</div>
+					</div>
+				</div>
+				<!-- Single gallery Item Start -->
+			<div class="single_gallery_item bi">
+					<img src="img/luss1.jpg" alt="">
+					<div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+						<div class="port-hover-text text-center">
+							<h4>Elitebook  - #50,000</h4>
+						<h4>Ram Size - 4GB.</h4>
+						<h4>Harddisk - 250GB</h4>
+						<h4>Processor Speed - 2.40GHZ</h4>
+							<a href="contact.php">Order now</a>
+						</div>
+					</div>
+				</div>
+				<!-- Single gallery Item Start -->
+			<div class="single_gallery_item bi">
+					<img src="img/luss1.jpg" alt="">
+					<div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+						<div class="port-hover-text text-center">
+							<h4>Elitebook  - #50,000</h4>
+						<h4>Ram Size - 4GB.</h4>
+						<h4>Harddisk - 250GB</h4>
+						<h4>Processor Speed - 2.40GHZ</h4>
+							<a href="contact.php">Order now</a>
+						</div>
+					</div>
+				</div><!-- Single gallery Item Start -->
+			<div class="single_gallery_item bi">
+				<img src="img/luss1.jpg" alt="">
+				<div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+					<div class="port-hover-text text-center">
+						<h4>Elitebook  - #50,000</h4>
+						<h4>Ram Size - 4GB.</h4>
+						<h4>Harddisk - 250GB</h4>
+						<h4>Processor Speed - 2.40GHZ</h4>
+						<a href="contact.php">Order now</a>
+					</div>
+				</div>
+			</div>
+			<!-- Single gallery Item Start -->
+			<div class="single_gallery_item bi">
+					<img src="img/luss1.jpg" alt="">
+					<div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+						<div class="port-hover-text text-center">
+							<h4>Elitebook  - #50,000</h4>
+						<h4>Ram Size - 4GB.</h4>
+						<h4>Harddisk - 250GB</h4>
+						<h4>Processor Speed - 2.40GHZ</h4>
+							<a href="contact.php">Order now</a>
+						</div>
+					</div>
+				</div>
+			<!-- Single gallery Item Start -->
+			<div class="single_gallery_item gd bi">
+				<img src="img/luss2.jpg" alt="">
+				<div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+					<div class="port-hover-text text-center">
+						<h4>Elitebook  - #50,000</h4>
+						<h4>Ram Size - 4GB.</h4>
+						<h4>Harddisk - 250GB</h4>
+						<h4>Processor Speed - 2.40GHZ</h4>
+						<a href="contact.php">Order now</a>
+					</div>
+				</div>
+			</div>
+	</section>
+	<!-- ***** Portfolio Area End ***** -->
 
 			<!-- Start service Area -->
 			<section class="service-area section-gap" id="service">
@@ -143,6 +207,6 @@
 			</section>
 			<!-- End service Area -->
 			
-			<?php include ('footer.html'); ?>
+			<?php include ('includes/footer.html'); ?>
 
 			

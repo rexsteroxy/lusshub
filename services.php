@@ -1,4 +1,4 @@
-<?php include ('header.html');?>
+<?php include ('includes/header.html');?>
 
 <section class="service-area section-gap" id="service">
 		<div class="container">
@@ -58,4 +58,4 @@
 
 	<!-- End service Area -->
 
-			<?php include ('footer.html');?>
+			<?php include ('includes/footer.html');?>
