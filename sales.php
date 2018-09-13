@@ -28,6 +28,9 @@
 						<div class="section-heading text-center">
 							<h2>See what we have for sell</h2>
 						</div>
+						<div class="text-center portfolio-menu">
+				<p> (Try to click on the pictures to see descriptions)</p>
+			</div>
 					</div>
 				</div>
 			</div>

@@ -35,7 +35,7 @@
 		<div class="mosh-projects-menu">
 			<div class="text-center portfolio-menu">
 				<p class="active"><a href="sales.php">Click Here To View More.</a></p>
-				
+				<p> (Try to click on the pictures to see descriptions)</p>
 			</div>
 		</div>
 
