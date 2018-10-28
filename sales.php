@@ -52,7 +52,9 @@
 			  <div class="container main-menu">
 				  <div class="row align-items-center justify-content-between d-flex">
 					<div id="logo">
-					  <a href="index.php"><img src="img/logo.png" alt="" title="" /></a>
+					  <a href="index.php"><h4>
+								Connect || <b>L</b>ss<b>H</b>ub
+							</h4></a>
 					</div>
 					<nav id="nav-menu-container">
 					  <ul class="nav-menu">
@@ -64,8 +66,6 @@
 						  </ul>
 						</li>	
 						<li><a href="sales.php">QS</a></li>
-						<li><a href="about.php">About</a></li>
-						<li><a href="contact.php">Contact</a></li>
 						<li class="menu-has-children">Account
 						  <ul>
 							<li><a href="login.php"><i class="fa fa-sign-in"></i>Login</a></li>
@@ -196,6 +196,7 @@
 											<li><a href="#">Home</a></li>
 											<li><a href="#">Feature</a></li>
 											<li><a href="#">Services</a></li>
+											<li><a href="about.php">About</a></li>
 										</ul>
 									</div>
 									<div class="col">
@@ -203,6 +204,7 @@
 											<li><a href="#">Team</a></li>
 											<li><a href="#">Pricing</a></li>
 											<li><a href="#">Contact</a></li>
+											<li><a href="contact.php">Contact</a></li>
 										</ul>
 									</div>										
 								</div>							
@@ -232,7 +234,7 @@
 
 					<div class="row footer-bottom d-flex justify-content-between align-items-center">
 						<p class="col-lg-8 col-sm-12 footer-text m-0"><!-- Link back to lusshub can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with by <a href="#" target="_blank">Winner</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with by <a href="#" target="_blank">LussHub</a>
 <!-- Link back to lusshub can't be removed. Template is licensed under CC BY 3.0. -->
 </p>
 						<div class="col-lg-4 col-sm-12 footer-social">

@@ -50,7 +50,9 @@
 			    <div class="container main-menu">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.php"><img src="img/logo.png" alt="" title="" /></a>
+				        <a href="index.php"><h4>
+								Connect || <b>L</b>ss<b>H</b>ub
+							</h4></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
@@ -62,8 +64,6 @@
 				            </ul>
 				          </li>	
 				          <li><a href="sales.php">QS</a></li>
-				          <li><a href="about.php">About</a></li>
-				          <li><a href="contact.php">Contact</a></li>
 				          <li class="menu-has-children">Account
 				            <ul>
 				              <li><a href="login.php"><i class="fa fa-sign-in"></i>Login</a></li>
@@ -87,10 +87,10 @@
 							</h1>
 							<h6 class="">
 								Jion the biggest chain of IT PSPs providing PS to the world.  
-							</h6>
-							<a href="#" class="primary-btn header-btn text-uppercase mt-10">Get Started</a>
+							</h6><br>
+							<a href="#" class="primary-btn header-btn text-uppercase mt-0">Get Started</a>
 							<hr><br> <hr><br>
-							<h6 class="text-uppercase">just want to make a <a href="#" class="text text-danger">purchase</a> or quick <a href="#" class="text text-danger">review</a> </h6>
+							<h6 class="text-uppercase">just want to make a <a href="#" class="text text-danger font-weight-bold">purchase</a> or quick <a href="#" class="text text-danger font-weight-bold">review</a> </h6>
 						</div>	
 						<!-- <div class="banner-img col-lg-5 col-md-6 align-self-end">
 							<img class="img-fluid" src="img/banner-img.png" alt="">
@@ -98,160 +98,7 @@
 					</div>
 				</div>
 			</section>
-			<!-- End banner Area -->
-			
-			<!-- Start service Area -->
-			<section class="service-area section-gap" id="service">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-md-12 pb-50 header-text text-center">
-							<h1 class="mb-10">PSPs cover</h1>
-							<p>
-								all of our PSPs enjoy on hand quality service from us.
-							</p>
-						</div>
-					</div>						
-					<div class="row">
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/o1.jpg" alt="">									
-								</div>
-								<h4>Repairs</h4>
-								<p>
-									With us you dont need to worry when your system damages or when natural desaster happens. <a href="Click for more">more</a>
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/o2.jpg" alt="">									
-								</div>
-								<h4>Maintainace</h4>
-								<p>
-									We keep your systems upto date with the leading technologies<a href="Click for more">more</a>
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/o3.jpg" alt="">									
-								</div>
-								<h4>Development</h4>
-								<p>
-									We help you build up the most reliable system network. <a href="click for more">more</a>
-								</p>
-							</div>
-						</div>	
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/o4.jpg" alt="">									
-								</div>
-								<h4>Consultance</h4>
-								<p>
-									Get a first class insight with our IT experts. <a href="Click for more">more</a>
-								</p>
-							</div>
-						</div>																		
-					</div>
-				</div>	
-			</section>
-			<!-- End service Area -->
-			
-			<!-- Start home-about Area -->
-			<section class="home-about-area section-gap relative">			
-				<div class="container">
-					<div class="row align-items-center justify-content-start">
-						<div class="col-lg-6 no-padding home-about-right">
-							<h1>
-								What we do || <b>L</b>ss<b>H</b>ub
-							</h1>
-							<p>
-								This is a platform that connects all PSPs(product and service providers) 
-								in all divisions within a location for proper scale of avaliability, visibility and accessibility of 
-								IT PSs(product and services).
-							</p>
-							<div class="row no-gutters">
-								<div class="single-services col">
-									<span class="lnr lnr-apartment"></span>
-									<a href="#">
-										<h4>PSPs visible</h4>
-									</a>
-									<p>
-										All our PSPs are visible and all have a physical location. 
-									</p>
-								</div>
-								<div class="single-services col">
-									<span class="lnr lnr-alarm"></span>
-									<a href="#">
-										<h4>Alert</h4>
-									</a>
-									<p>
-										<b>L</b>ss<b>H</b>ub is always liable to all product listed on quick sales. So feel 
-										free to <a href="#">reach us</a> if what you saw was not what you got.
-									</p>
-								</div>								
-							</div>
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End home-about Area -->
-			
-			<!-- Start work-process Area -->
-			<section class="work-process-area pt-120">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-60 col-lg-7">
-							<div class="title text-center">
-								<h1 class="mb-10">How it Works</h1>
-								<p>You're one step to jpoining the biggest chain of PSPs centralized system.</p>
-							</div>
-						</div>
-					</div>	
-					<div class="total-work-process d-flex flex-wrap justify-content-around align-items-center">
-						<div class="single-work-process">
-							<div class="work-icon-box">
-								<span class="lnr lnr-train"></span>
-							</div>
-							<h4 class="caption">Signup</h4>
-						</div>
-						<div class="work-arrow">
-							<img src="img/arrow.png" alt="">
-						</div>
-						<div class="single-work-process">
-							<div class="work-icon-box">
-								<span class="lnr lnr-layers"></span>
-							</div>
-							<h4 class="caption">Join a division</h4>
-						</div>
-						<div class="work-arrow">
-							<img src="img/arrow.png" alt="">
-						</div>
-						<div class="single-work-process">
-							<div class="work-icon-box">
-								<span class="lnr lnr-database"></span>
-							</div>
-							<h4 class="caption">Update PS board</h4>
-						</div>
-						<div class="work-arrow">
-							<img src="img/arrow.png" alt="">
-						</div>
-						<div class="single-work-process">
-							<div class="work-icon-box">
-								<span class="lnr lnr-smile"></span>
-							</div>
-							<h4 class="caption">You're connected</h4>
-						</div>											
-					<div class="row">
-						<div class="col"></div>
-					</div>
-				</div>	
-			</section>
-			<!-- End work-process Area -->
+			<!-- End banner Area -->	
 						
 			
 			<!-- Start qs Area -->
@@ -261,7 +108,7 @@
 						<div class="menu-content pb-60 col-lg-7">
 							<div class="title text-center">
 								<h1 class="mb-10 text-white">Quick sales</h1>
-								<p class="text-white">sales on <b>L</b>uss<b>H</b>ub is always like a seasional sale.</p>
+								<p class="text-white">sales on <b>L</b>uss<b>H</b>ub is always like a auction.</p>
 							</div>
 						</div>
 					</div>						
@@ -342,6 +189,7 @@
 											<li><a href="#">Home</a></li>
 											<li><a href="#">Feature</a></li>
 											<li><a href="#">Services</a></li>
+				          					<li><a href="about.php">About</a></li>
 										</ul>
 									</div>
 									<div class="col">
@@ -349,6 +197,7 @@
 											<li><a href="#">Team</a></li>
 											<li><a href="#">Pricing</a></li>
 											<li><a href="#">Contact</a></li>
+				        					<li><a href="contact.php">Contact</a></li>
 										</ul>
 									</div>										
 								</div>							
@@ -378,7 +227,7 @@
 
 					<div class="row footer-bottom d-flex justify-content-between align-items-center">
 						<p class="col-lg-8 col-sm-12 footer-text m-0"><!-- Link back to lusshub can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with by <a href="#" target="_blank">Winner</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with by <a href="#" target="_blank">LussHub</a>
 <!-- Link back to lusshub can't be removed. Template is licensed under CC BY 3.0. -->
 </p>
 						<div class="col-lg-4 col-sm-12 footer-social">

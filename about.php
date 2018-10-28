@@ -50,7 +50,9 @@
 			  <div class="container main-menu">
 				  <div class="row align-items-center justify-content-between d-flex">
 					<div id="logo">
-					  <a href="index.php"><img src="img/logo.png" alt="" title="" /></a>
+					  <a href="index.php"><h4>
+								Connect || <b>L</b>ss<b>H</b>ub
+							</h4></a>
 					</div>
 					<nav id="nav-menu-container">
 					  <ul class="nav-menu">
@@ -62,8 +64,6 @@
 						  </ul>
 						</li>	
 						<li><a href="sales.php">QS</a></li>
-						<li><a href="about.php">About</a></li>
-						<li><a href="contact.php">Contact</a></li>
 						<li class="menu-has-children">Account
 						  <ul>
 							<li><a href="login.php"><i class="fa fa-sign-in"></i>Login</a></li>
@@ -98,29 +98,31 @@
 					<div class="row align-items-center justify-content-start">
 						<div class="col-lg-6 no-padding home-about-right">
 							<h1>
-								We can fix all types <br>
-								of computer & mobiles
+								What we do || <b>L</b>ss<b>H</b>ub
 							</h1>
 							<p>
-								inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
+								This is a platform that connects all PSPs(product and service providers) 
+								in all divisions within a location for proper scale of avaliability, visibility and accessibility of 
+								IT PSs(product and services).
 							</p>
 							<div class="row no-gutters">
 								<div class="single-services col">
-									<span class="lnr lnr-diamond"></span>
+									<span class="lnr lnr-apartment"></span>
 									<a href="#">
-										<h4>Expert Services</h4>
+										<h4>PSPs visible</h4>
 									</a>
 									<p>
-										Usage of the Internet is becoming more common due to rapid advancement of technology.
+										All our PSPs are visible and all have a physical location. 
 									</p>
 								</div>
 								<div class="single-services col">
-									<span class="lnr lnr-phone"></span>
+									<span class="lnr lnr-alarm"></span>
 									<a href="#">
-										<h4>Great Support</h4>
+										<h4>Alert</h4>
 									</a>
 									<p>
-										Usage of the Internet is becoming more common due to rapid advancement of technology.
+										<b>L</b>ss<b>H</b>ub is always liable to all product listed on quick sales. So feel 
+										free to <a href="#">reach us</a> if what you saw was not what you got.
 									</p>
 								</div>								
 							</div>
@@ -170,30 +172,6 @@
 			</section>
 			<!-- End discount-section Area -->
 
-			<!-- Start faq Area -->
-			<section class="faq-area section-gap" id="skills">
-				<div class="container">		
-					<div class="row skill-area justify-content-center">
-						<div class="col-lg-3 single-skill mx-auto d-block">
-					      <div class="skills skill-1" data-percent="80"></div>
-					      <h6 class="text-uppercase">web design</h6>							
-						</div> 
-						<div class="col-lg-3 single-skill mx-auto d-block">
-					      <div class="skills skill-2" data-percent="75"></div>	
-					      <h6 class="text-uppercase">ui / ux design</h6>						      		
-						</div>	
-						<div class="col-lg-3 single-skill mx-auto d-block">
-					      <div class="skills skill-3" data-percent="60"></div>
-					      <h6 class="text-uppercase">mobile app</h6>						     			
-						</div>
-						<div class="col-lg-3 single-skill mx-auto d-block">
-					      <div class="skills skill-4" data-percent="90"></div>
-					      <h6 class="text-uppercase">web development</h6>						     			
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End faq Area -->
 
 			<!-- Start qs Area -->
 			<section class="qs-area section-gap" id="qs">
@@ -344,6 +322,7 @@
 											<li><a href="#">Home</a></li>
 											<li><a href="#">Feature</a></li>
 											<li><a href="#">Services</a></li>
+											<li><a href="about.php">About</a></li>
 										</ul>
 									</div>
 									<div class="col">
@@ -351,6 +330,7 @@
 											<li><a href="#">Team</a></li>
 											<li><a href="#">Pricing</a></li>
 											<li><a href="#">Contact</a></li>
+											<li><a href="contact.php">Contact</a></li>
 										</ul>
 									</div>										
 								</div>							
@@ -380,7 +360,7 @@
 
 					<div class="row footer-bottom d-flex justify-content-between align-items-center">
 						<p class="col-lg-8 col-sm-12 footer-text m-0"><!-- Link back to lusshub can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with by <a href="#" target="_blank">Winner</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with by <a href="#" target="_blank">LussHub</a>
 <!-- Link back to lusshub can't be removed. Template is licensed under CC BY 3.0. -->
 </p>
 						<div class="col-lg-4 col-sm-12 footer-social">
