@@ -98,29 +98,31 @@
 					<div class="row align-items-center justify-content-start">
 						<div class="col-lg-6 no-padding home-about-right">
 							<h1>
-								We can fix all types <br>
-								of computer & mobiles
+								What we do || <b>L</b>ss<b>H</b>ub
 							</h1>
 							<p>
-								inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
+								This is a platform that connects all PSPs(product and service providers) 
+								in all divisions within a location for proper scale of avaliability, visibility and accessibility of 
+								IT PSs(product and services).
 							</p>
 							<div class="row no-gutters">
 								<div class="single-services col">
-									<span class="lnr lnr-diamond"></span>
+									<span class="lnr lnr-apartment"></span>
 									<a href="#">
-										<h4>Expert Services</h4>
+										<h4>PSPs visible</h4>
 									</a>
 									<p>
-										Usage of the Internet is becoming more common due to rapid advancement of technology.
+										All our PSPs are visible and all have a physical location. 
 									</p>
 								</div>
 								<div class="single-services col">
-									<span class="lnr lnr-phone"></span>
+									<span class="lnr lnr-alarm"></span>
 									<a href="#">
-										<h4>Great Support</h4>
+										<h4>Alert</h4>
 									</a>
 									<p>
-										Usage of the Internet is becoming more common due to rapid advancement of technology.
+										<b>L</b>ss<b>H</b>ub is always liable to all product listed on quick sales. So feel 
+										free to <a href="#">reach us</a> if what you saw was not what you got.
 									</p>
 								</div>								
 							</div>
@@ -170,30 +172,6 @@
 			</section>
 			<!-- End discount-section Area -->
 
-			<!-- Start faq Area -->
-			<section class="faq-area section-gap" id="skills">
-				<div class="container">		
-					<div class="row skill-area justify-content-center">
-						<div class="col-lg-3 single-skill mx-auto d-block">
-					      <div class="skills skill-1" data-percent="80"></div>
-					      <h6 class="text-uppercase">web design</h6>							
-						</div> 
-						<div class="col-lg-3 single-skill mx-auto d-block">
-					      <div class="skills skill-2" data-percent="75"></div>	
-					      <h6 class="text-uppercase">ui / ux design</h6>						      		
-						</div>	
-						<div class="col-lg-3 single-skill mx-auto d-block">
-					      <div class="skills skill-3" data-percent="60"></div>
-					      <h6 class="text-uppercase">mobile app</h6>						     			
-						</div>
-						<div class="col-lg-3 single-skill mx-auto d-block">
-					      <div class="skills skill-4" data-percent="90"></div>
-					      <h6 class="text-uppercase">web development</h6>						     			
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End faq Area -->
 
 			<!-- Start qs Area -->
 			<section class="qs-area section-gap" id="qs">

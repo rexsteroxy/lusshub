@@ -91,13 +91,127 @@
 					</div>
 				</div>
 			</section>
-			<!-- End banner Area -->				  
+			<!-- End banner Area -->
+			
+			
+			<!-- Start service Area -->
+			<section class="service-area section-gap pspcover" id="service">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-12 pb-50 header-text text-center">
+							<h1 class="mb-10">PSPs cover</h1>
+							<p>
+								all of our PSPs enjoy on hand quality service from us.
+							</p>
+						</div>
+					</div>						
+					<div class="row">
+						<div class="col-lg-3 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/o1.jpg" alt="">									
+								</div>
+								<h4>Repairs</h4>
+								<p>
+									With us you dont need to worry when your system damages or when natural desaster happens. <a href="Click for more">more</a>
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/o2.jpg" alt="">									
+								</div>
+								<h4>Maintainace</h4>
+								<p>
+									We keep your systems upto date with the leading technologies<a href="Click for more">more</a>
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/o3.jpg" alt="">									
+								</div>
+								<h4>Development</h4>
+								<p>
+									We help you build up the most reliable system network. <a href="click for more">more</a>
+								</p>
+							</div>
+						</div>	
+						<div class="col-lg-3 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/o4.jpg" alt="">									
+								</div>
+								<h4>Consultance</h4>
+								<p>
+									Get a first class insight with our IT experts. <a href="Click for more">more</a>
+								</p>
+							</div>
+						</div>																		
+					</div>
+				</div>	
+			</section>
+			<!-- End service Area -->
+			
+			
+			<!-- Start work-process Area -->
+			<section class="work-process-area pt-120 ">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-7">
+							<div class="title text-center">
+								<h1 class="mb-10">How it Works</h1>
+								<p>You're one step to jpoining the biggest chain of PSPs centralized system.</p>
+							</div>
+						</div>
+					</div>	
+					<div class="total-work-process d-flex flex-wrap justify-content-around align-items-center">
+						<div class="single-work-process">
+							<div class="work-icon-box">
+								<span class="lnr lnr-train"></span>
+							</div>
+							<h4 class="caption">Signup</h4>
+						</div>
+						<div class="work-arrow">
+							<img src="img/arrow.png" alt="">
+						</div>
+						<div class="single-work-process">
+							<div class="work-icon-box">
+								<span class="lnr lnr-layers"></span>
+							</div>
+							<h4 class="caption">Join a division</h4>
+						</div>
+						<div class="work-arrow">
+							<img src="img/arrow.png" alt="">
+						</div>
+						<div class="single-work-process">
+							<div class="work-icon-box">
+								<span class="lnr lnr-database"></span>
+							</div>
+							<h4 class="caption">Update PS board</h4>
+						</div>
+						<div class="work-arrow">
+							<img src="img/arrow.png" alt="">
+						</div>
+						<div class="single-work-process">
+							<div class="work-icon-box">
+								<span class="lnr lnr-smile"></span>
+							</div>
+							<h4 class="caption">You're connected</h4>
+						</div>											
+					<div class="row">
+						<div class="col"></div>
+					</div>
+				</div>	
+			</section>
+			<!-- End work-process Area -->
 
 			<!-- Start contact-page Area -->
 			<section class="contact-page-area section-gap">
 				<div class="container">
 					<div class="row">
-						<div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
 						<div class="col-lg-4 d-flex flex-column address-wrap">
 							<div class="single-contact-address d-flex flex-row">
 								<div class="icon">
