@@ -373,14 +373,6 @@
 				@extend .p2-gradient-color;
 			}
 		}
-		.work-icon-box2 {
-			display: inline-block;
-			width: 120px;
-			height: 120px;
-			border-radius: 3px;
-			border: 1px solid #eee;
-			text-align: center;
-		}
 		.caption {
 			font-size: 16px;
 			margin-top: 20px;
@@ -525,7 +517,7 @@
 		}
 	}
 
-	.sales-right{
+	.feedback-right{
 		background:url(../img/video-bg.jpg) center;
 		background-size:cover;
 		padding:130px 0;
