@@ -222,7 +222,7 @@ $(document).ready(function() {
 
     //------- Owl Carusel  js --------//  
 
-    $('.active-testimonial-carusel').owlCarousel({
+    $('.active-qs-carusel').owlCarousel({
         items: 3,
         loop: true,
         margin: 30,

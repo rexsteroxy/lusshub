@@ -558,9 +558,9 @@
 
 //--------- end faq area  -------------//
 
-//--------- Start testimonial Area -------------//
+//--------- Start qs Area -------------//
 
-.testomial-area{
+.qs-area{
 	@extend .p1-gradient-bg;
 	.owl-carousel .owl-item img{
 		width:auto!important;
@@ -600,7 +600,7 @@
 	}	
 }
 
-.single-testimonial{
+.single-qs{
 	text-align:center;
 	padding:30px;
    	background:$offwhite;
@@ -624,7 +624,7 @@
 }
 
 
-//--------- End testimonial Area -------------//
+//--------- End qs Area -------------//
 
 
 //--------- start blog Area -------------//

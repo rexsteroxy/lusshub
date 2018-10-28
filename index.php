@@ -50,24 +50,24 @@
 			    <div class="container main-menu">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+				        <a href="index.php"><img src="img/logo.png" alt="" title="" /></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-						  <li class="menu-active"><a href="index.html">Home</a></li>
+						  <li class="menu-active"><a href="index.php">Home</a></li>
 						  <li class="menu-has-children">Divisions
 				            <ul>
 				              <li><a href="#">Imo</a></li>
 				              <li><a href="#">Abia</a></li>
 				            </ul>
 				          </li>	
-				          <li><a href="sales.html">QS</a></li>
-				          <li><a href="about.html">About</a></li>
-				          <li><a href="contact.html">Contact</a></li>
+				          <li><a href="sales.php">QS</a></li>
+				          <li><a href="about.php">About</a></li>
+				          <li><a href="contact.php">Contact</a></li>
 				          <li class="menu-has-children">Account
 				            <ul>
-				              <li><a href="login.html"><i class="fa fa-sign-in"></i>Login</a></li>
-				              <li><a href="register.html"><i class="lnr lnr-user"></i> Register</a></li>
+				              <li><a href="login.php"><i class="fa fa-sign-in"></i>Login</a></li>
+				              <li><a href="register.php"><i class="lnr lnr-user"></i> Register</a></li>
 				            </ul>
 				          </li>	
 				        </ul>
@@ -254,8 +254,8 @@
 			<!-- End work-process Area -->
 						
 			
-			<!-- Start testomial Area -->
-			<section class="testomial-area section-gap" id="testimonail">
+			<!-- Start qs Area -->
+			<section class="qs-area section-gap" id="qs">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-7">
@@ -266,29 +266,29 @@
 						</div>
 					</div>						
 					<div class="row">
-						<div class="active-testimonial-carusel">
-							<div class="single-testimonial item">
+						<div class="active-qs-carusel">
+							<div class="single-qs item">
 								<img class="mx-auto" src="img/luss1.jpg" alt="">
 								<h5>Mark Alviro Wiens</h5>
 								<p>
 									CEO at Google
 								</p>
 							</div>
-							<div class="single-testimonial item">
+							<div class="single-qs item">
 								<img class="mx-auto" src="img/luss2.jpg" alt="">
 								<h5>Mark Alviro Wiens</h5>
 								<p>
 									CEO at Google
 								</p>
 							</div>
-							<div class="single-testimonial item">
+							<div class="single-qs item">
 								<img class="mx-auto" src="img/luss3.jpg" alt="">
 								<h5>Mark Alviro Wiens</h5>
 								<p>
 									CEO at Google
 								</p>
 							</div>															
-							<div class="single-testimonial item">
+							<div class="single-qs item">
 								<img class="mx-auto" src="img/luss4.jpg" alt="">
 								<h5>Mark Alviro Wiens</h5>
 								<p>
@@ -299,7 +299,7 @@
 					</div>
 				</div>	
 			</section>
-			<!-- End testomial Area -->				
+			<!-- End qs Area -->				
 			
 			
 			<!-- Start brands Area -->
