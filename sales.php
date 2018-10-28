@@ -28,6 +28,8 @@
 			<link rel="stylesheet" href="css/animate.min.css">
 			<link rel="stylesheet" href="css/owl.carousel.css">
 			<link rel="stylesheet" href="css/main.css">
+			<link rel="stylesheet" href="css/sales/responsive.css">
+			<link rel="stylesheet" href="css/sales/style.css">
 		</head>
 		<body>	
 			<header id="header" id="home">
@@ -50,24 +52,24 @@
 			  <div class="container main-menu">
 				  <div class="row align-items-center justify-content-between d-flex">
 					<div id="logo">
-					  <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+					  <a href="index.php"><img src="img/logo.png" alt="" title="" /></a>
 					</div>
 					<nav id="nav-menu-container">
 					  <ul class="nav-menu">
-						<li class="menu-active"><a href="index.html">Home</a></li>
+						<li class="menu-active"><a href="index.php">Home</a></li>
 						<li class="menu-has-children">Divisions
 						  <ul>
 							<li><a href="#">Imo</a></li>
 							<li><a href="#">Abia</a></li>
 						  </ul>
 						</li>	
-						<li><a href="sales.html">QS</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="sales.php">QS</a></li>
+						<li><a href="about.php">About</a></li>
+						<li><a href="contact.php">Contact</a></li>
 						<li class="menu-has-children">Account
 						  <ul>
-							<li><a href="login.html"><i class="fa fa-sign-in"></i>Login</a></li>
-							<li><a href="register.html"><i class="lnr lnr-user"></i> Register</a></li>
+							<li><a href="login.php"><i class="fa fa-sign-in"></i>Login</a></li>
+							<li><a href="register.php"><i class="lnr lnr-user"></i> Register</a></li>
 						  </ul>
 						</li>	
 					  </ul>
@@ -76,7 +78,6 @@
 			  </div>
 			</header><!-- #header -->
 
-
 			<!-- start banner Area -->
 			<section class="banner-area relative" id="home">	
 				<div class="overlay overlay-bg"></div>
@@ -84,75 +85,102 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Contact Us				
+								QS				
 							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="contact.html"> Contact Us</a></p>
+							<p class="text-white link-nav"><a href="index.php">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="services.php"> Quick sales</a></p>
 						</div>	
 					</div>
 				</div>
 			</section>
-			<!-- End banner Area -->				  
+			<!-- End banner Area -->
 
-			<!-- Start contact-page Area -->
-			<section class="contact-page-area section-gap">
+
+			<!-- Start discount-section Area -->
+			<section class="discount-section-area relative section-gap">
+				<div class="overlay overlay-bg"></div>
 				<div class="container">
-					<div class="row">
-						<div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
-						<div class="col-lg-4 d-flex flex-column address-wrap">
-							<div class="single-contact-address d-flex flex-row">
-								<div class="icon">
-									<span class="lnr lnr-home"></span>
-								</div>
-								<div class="contact-details">
-									<h5>Binghamton, New York</h5>
-									<p>
-										4343 Hinkle Deegan Lake Road
-									</p>
-								</div>
-							</div>
-							<div class="single-contact-address d-flex flex-row">
-								<div class="icon">
-									<span class="lnr lnr-phone-handset"></span>
-								</div>
-								<div class="contact-details">
-									<h5>00 (958) 9865 562</h5>
-									<p>Mon to Fri 9am to 6 pm</p>
-								</div>
-							</div>
-							<div class="single-contact-address d-flex flex-row">
-								<div class="icon">
-									<span class="lnr lnr-envelope"></span>
-								</div>
-								<div class="contact-details">
-									<h5>support@colorlib.com</h5>
-									<p>Send us your query anytime!</p>
-								</div>
-							</div>														
+					<div class="row align-items-center justify-content-between no-gutters">
+						<div class="col-lg-6 discount-left">
+							<h1 class="text-white">Enjoy 25% Seasonal Discount!</h1>
+							<p class="text-white">
+								inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial.
+							</p>
+							<a href="#" class="header-btn">Order Service Now</a>
 						</div>
-						<div class="col-lg-8">
-							<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
-								<div class="row">	
-									<div class="col-lg-6 form-group">
-										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
-									
-										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+						<div class="col-lg-5 discount-right">
+							<h4 class="text-white">Get a free Estimate</h4>
+		                    <form class="booking-form" id="myForm" action="#">
+		                        <div class="row">
+		                            <div class="col-lg-12 d-flex flex-column">
+		                                <input name="name" placeholder="Your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" class="form-control mt-20" required="" type="text">
+		                            </div>
+		                            <div class="col-lg-6 d-flex flex-column">
+		                                <input name="phone" placeholder="Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" class="form-control mt-20" required="" type="text">
+		                            </div>
+		                            <div class="col-lg-6 d-flex flex-column">
+		                                <input name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" class="form-control mt-20" required="" type="email">
+		                            </div>
+		                            <div class="col-lg-12 flex-column">
+		                                <textarea rows="5" class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+		                            </div>
 
-										<input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
-									</div>
-									<div class="col-lg-6 form-group">
-										<textarea class="common-textarea form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>				
-									</div>
-									<div class="col-lg-12">
-										<div class="alert-msg" style="text-align: left;"></div>
-										<button class="genric-btn primary circle" style="float: right;">Send Message</button>											
-									</div>
-								</div>
-							</form>	
+		                            <div class="col-lg-12 d-flex justify-content-end send-btn">
+		                                <button class="genric-btn primary mt-20 text-uppercase ">Get Estimate</button>
+		                            </div>
+		                        </div>
+		                    </form>
 						</div>
 					</div>
 				</div>	
 			</section>
-			<!-- End contact-page Area -->
+			<!-- End discount-section Area -->
+			
+			
+			<section class="qs-area section-gap" id="qs">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-7">
+							<div class="title text-center">
+								<h1 class="mb-10 text-white">Quick sales</h1>
+								<p class="text-white">sales on <b>L</b>uss<b>H</b>ub is always like a seasional sale.</p>
+							</div>
+						</div>
+					</div>						
+					<div class="row">
+						<div class="active-qs-carusel">
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/luss1.jpg" alt="">
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/luss2.jpg" alt="">
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/luss3.jpg" alt="">
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>															
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/luss4.jpg" alt="">
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End qs Area -->		
 
 			<!-- start footer Area -->		
 			<footer class="footer-area section-gap">
@@ -231,5 +259,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     		<script src="js/jquery.circlechart.js"></script>								
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
+			<script src="js/sales/active.js"></script>
 		</body>
 	</html>

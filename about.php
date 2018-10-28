@@ -50,24 +50,24 @@
 			  <div class="container main-menu">
 				  <div class="row align-items-center justify-content-between d-flex">
 					<div id="logo">
-					  <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+					  <a href="index.php"><img src="img/logo.png" alt="" title="" /></a>
 					</div>
 					<nav id="nav-menu-container">
 					  <ul class="nav-menu">
-						<li class="menu-active"><a href="index.html">Home</a></li>
+						<li class="menu-active"><a href="index.php">Home</a></li>
 						<li class="menu-has-children">Divisions
 						  <ul>
 							<li><a href="#">Imo</a></li>
 							<li><a href="#">Abia</a></li>
 						  </ul>
 						</li>	
-						<li><a href="sales.html">QS</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="sales.php">QS</a></li>
+						<li><a href="about.php">About</a></li>
+						<li><a href="contact.php">Contact</a></li>
 						<li class="menu-has-children">Account
 						  <ul>
-							<li><a href="login.html"><i class="fa fa-sign-in"></i>Login</a></li>
-							<li><a href="register.html"><i class="lnr lnr-user"></i> Register</a></li>
+							<li><a href="login.php"><i class="fa fa-sign-in"></i>Login</a></li>
+							<li><a href="register.php"><i class="lnr lnr-user"></i> Register</a></li>
 						  </ul>
 						</li>	
 					  </ul>
@@ -83,75 +83,52 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Services				
+								About Us				
 							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="services.html"> Services</a></p>
+							<p class="text-white link-nav"><a href="index.php">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.php"> About Us</a></p>
 						</div>	
 					</div>
 				</div>
 			</section>
-			<!-- End banner Area -->
+			<!-- End banner Area -->	
 
-			<!-- Start service Area -->
-			<section class="service-area section-gap" id="service">
+			<!-- Start home-about Area -->
+			<section class="home-about-area section-gap relative">			
 				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-md-12 pb-50 header-text text-center">
-							<h1 class="mb-10">What we Offer to our Supporters</h1>
+					<div class="row align-items-center justify-content-start">
+						<div class="col-lg-6 no-padding home-about-right">
+							<h1>
+								We can fix all types <br>
+								of computer & mobiles
+							</h1>
 							<p>
-								Who are in extremely love with eco friendly system..
+								inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
 							</p>
-						</div>
-					</div>						
-					<div class="row">
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/o1.jpg" alt="">									
+							<div class="row no-gutters">
+								<div class="single-services col">
+									<span class="lnr lnr-diamond"></span>
+									<a href="#">
+										<h4>Expert Services</h4>
+									</a>
+									<p>
+										Usage of the Internet is becoming more common due to rapid advancement of technology.
+									</p>
 								</div>
-								<h4>Popular Uses Of The Internet</h4>
-								<p>
-									inappropriate behavior is oftenlaug hed off as “boys will be boys,” women face higher conduct women face higher conduct.
-								</p>
+								<div class="single-services col">
+									<span class="lnr lnr-phone"></span>
+									<a href="#">
+										<h4>Great Support</h4>
+									</a>
+									<p>
+										Usage of the Internet is becoming more common due to rapid advancement of technology.
+									</p>
+								</div>								
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/o2.jpg" alt="">									
-								</div>
-								<h4>Protective Preventative</h4>
-								<p>
-									inappropriate behavior is oftenlaug hed off as “boys will be boys,” women face higher conduct women face higher conduct.								
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/o3.jpg" alt="">									
-								</div>
-								<h4>Download Free Songs</h4>
-								<p>
-									inappropriate behavior is oftenlaug hed off as “boys will be boys,” women face higher conduct women face higher conduct.
-								</p>
-							</div>
-						</div>	
-						<div class="col-lg-3 col-md-6">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/o4.jpg" alt="">									
-								</div>
-								<h4>A Discount Toner Cartridge</h4>
-								<p>
-									inappropriate behavior is oftenlaug hed off as “boys will be boys,” women face higher conduct women face higher conduct.
-								</p>
-							</div>
-						</div>																		
 					</div>
 				</div>	
 			</section>
-			<!-- End service Area -->
+			<!-- End home-about Area -->
 
 			<!-- Start discount-section Area -->
 			<section class="discount-section-area relative section-gap">
@@ -193,58 +170,166 @@
 			</section>
 			<!-- End discount-section Area -->
 
-			<!-- Start work-process Area -->
-			<section class="work-process-area section-gap">
+			<!-- Start faq Area -->
+			<section class="faq-area section-gap" id="skills">
+				<div class="container">		
+					<div class="row skill-area justify-content-center">
+						<div class="col-lg-3 single-skill mx-auto d-block">
+					      <div class="skills skill-1" data-percent="80"></div>
+					      <h6 class="text-uppercase">web design</h6>							
+						</div> 
+						<div class="col-lg-3 single-skill mx-auto d-block">
+					      <div class="skills skill-2" data-percent="75"></div>	
+					      <h6 class="text-uppercase">ui / ux design</h6>						      		
+						</div>	
+						<div class="col-lg-3 single-skill mx-auto d-block">
+					      <div class="skills skill-3" data-percent="60"></div>
+					      <h6 class="text-uppercase">mobile app</h6>						     			
+						</div>
+						<div class="col-lg-3 single-skill mx-auto d-block">
+					      <div class="skills skill-4" data-percent="90"></div>
+					      <h6 class="text-uppercase">web development</h6>						     			
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End faq Area -->
+
+			<!-- Start qs Area -->
+			<section class="qs-area section-gap" id="qs">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-7">
 							<div class="title text-center">
-								<h1 class="mb-10">Our Working Process</h1>
-								<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game</p>
+								<h1 class="mb-10 text-white">Feedback from our real clients</h1>
+								<p class="text-white">It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game.</p>
 							</div>
 						</div>
-					</div>	
-					<div class="total-work-process d-flex flex-wrap justify-content-around align-items-center">
-						<div class="single-work-process">
-							<div class="work-icon-box">
-								<span class="lnr lnr-funnel"></span>
-							</div>
-							<h4 class="caption">Detect problem</h4>
-						</div>
-						<div class="work-arrow">
-							<img src="img/arrow.png" alt="">
-						</div>
-						<div class="single-work-process">
-							<div class="work-icon-box">
-								<span class="lnr lnr-layers"></span>
-							</div>
-							<h4 class="caption">Split solution into parts</h4>
-						</div>
-						<div class="work-arrow">
-							<img src="img/arrow.png" alt="">
-						</div>
-						<div class="single-work-process">
-							<div class="work-icon-box">
-								<span class="lnr lnr-paw"></span>
-							</div>
-							<h4 class="caption">Analyzing method</h4>
-						</div>
-						<div class="work-arrow">
-							<img src="img/arrow.png" alt="">
-						</div>
-						<div class="single-work-process">
-							<div class="work-icon-box">
-								<span class="lnr lnr-smile"></span>
-							</div>
-							<h4 class="caption">Final result comes out</h4>
-						</div>											
+					</div>						
 					<div class="row">
-						<div class="col"></div>
+						<div class="active-qs-carusel">
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/t1.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/t2.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/t3.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>	
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/t1.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/t2.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/t3.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>															
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/t1.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/t2.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-qs item">
+								<img class="mx-auto" src="img/t3.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h5>Mark Alviro Wiens</h5>
+								<p>
+									CEO at Google
+								</p>
+							</div>														
+						</div>
 					</div>
 				</div>	
 			</section>
-			<!-- End work-process Area -->									
+			<!-- End qs Area -->		
 
+			<!-- Start brands Area -->
+			<section class="brands-area section-gap">
+				<div class="container no-padding">
+					<div class="brand-wrap">
+						<div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
+							<div class="col single-brand">
+								<a href="#"><img class="mx-auto" src="img/l1.png" alt=""></a>
+							</div>
+							<div class="col single-brand">
+								<a href="#"><img class="mx-auto" src="img/l2.png" alt=""></a>
+							</div>
+							<div class="col single-brand">
+								<a href="#"><img class="mx-auto" src="img/l3.png" alt=""></a>
+							</div>
+							<div class="col single-brand">
+								<a href="#"><img class="mx-auto" src="img/l4.png" alt=""></a>
+							</div>
+							<div class="col single-brand">
+								<a href="#"><img class="mx-auto" src="img/l5.png" alt=""></a>
+							</div>								
+						</div>																			
+					</div>
+				</div>	
+			</section>
+			<!-- End brands Area -->								
+				
 			<!-- start footer Area -->		
 			<footer class="footer-area section-gap">
 				<div class="container">
