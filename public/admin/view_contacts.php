@@ -3,7 +3,7 @@ require_once('../../private/initialize.php');
 
 $contacts = find_all_contact();
 
-$contact_title = 'view contacts';
+$page_title = 'view contacts';
 include(SHARED_PATH . '/admin_header.php');
 
 

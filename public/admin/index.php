@@ -10,7 +10,7 @@ include_once(SHARED_PATH .'/admin_header.php');
     		<h1>Main Menu</h1>
     			<ul>
     				<li><a href="view_contacts.php" >View Contacts</a></li>
-    				<li><a href="pages/index.php" >View Orders</a></li>
+    				<li><a href="view_orders.php" >View Orders</a></li>
     				<li><a href="view.php" >Create New Admin</a></li>
     			</ul>
     	</div>
