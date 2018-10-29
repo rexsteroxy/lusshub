@@ -40,9 +40,8 @@ include(SHARED_PATH . '/admin_header.php');
 			<td><?php echo h($contact['subject']); ?></td>
 			<td><?php echo h($contact['message']); ?></td>
 			<td><?php echo $contact['time']; ?></td>
-			<td><a class="action" href="<?php echo url_for('/admin/contacts/show.php?id=' . $contact['id']) ;?>">View</a></td>
-			<td><a class="action" href="<?php echo url_for('/admin/contacts/edit.php?id=' . h(u($contact['id'])));?>">Edith</a></td>
-			<td><a class="action" href="<?php echo url_for('/admin/contacts/delete.php?id='. h(u($contact['id'])))?>">Delete</a></td>
+			<td><a class="action" href="<?php echo url_for('/admin/show_contacts.php?id=' . $contact['id']) ;?>">CLICK TO VIEW</a></td>
+			<td><a class="action" href="<?php echo url_for('/admin/delete_contacts.php?id='. h(u($contact['id'])))?>">CLICK TO DELETE</a></td>
 		</tr>
 	<?php }?>
 </table>
