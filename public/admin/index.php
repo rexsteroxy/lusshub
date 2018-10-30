@@ -11,7 +11,7 @@ include_once(SHARED_PATH .'/admin_header.php');
     			<ul>
     				<li><a href="view_contacts.php" >View Contacts</a></li>
     				<li><a href="view_orders.php" >View Orders</a></li>
-    				<li><a href="view.php" >Create New Admin</a></li>
+    				<li><a href="view_admin.php" >View  Administrators</a></li>
     			</ul>
     	</div>
     </div>

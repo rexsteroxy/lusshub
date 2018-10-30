@@ -80,4 +80,98 @@ function delete_order($id) {
       exit;
     }
   } 
+
+  ///this is for the admin area cod
+
+function find_all_admin(){
+  global $db;
+
+  $sql = "SELECT * FROM admin ";
+  $sql .= "ORDER BY id ASC";
+  $admin = mysqli_query($db, $sql);
+  confirm_result_set($admin);
+  return $admin;
+}
+
+function find_one_admin($id){
+  global $db;
+  
+  $sql = "SELECT * FROM admin ";
+  $sql .= "WHERE id='".$id."'";
+  $result = mysqli_query($db, $sql);
+  confirm_result_set($result);
+  $admin=mysqli_fetch_assoc($result);
+    mysqli_free_result($result);
+    return $admin;
+}
+
+function delete_admin($id) {
+    global $db;
+
+    $sql = "DELETE FROM admin ";
+   $sql .= "WHERE id='" . $id ."'";
+    $sql .= "LIMIT 1";
+    $result = mysqli_query($db, $sql);
+
+    // For DELETE statements, $result is true/false
+    if($result) {
+      return true;
+    } else {
+      // DELETE failed
+      echo mysqli_error($db);
+      db_disconnect($db);
+      exit;
+    }
+  } 
+
+function edith_admin($admin,$id){
+
+  global $db;
+
+  $sql = "UPDATE admin SET ";
+  $sql .= "name='" . $admin['name']."',";
+  $sql .= "email='" . $admin['email']."',";
+  $sql .= "password='" . $admin['password']."'";
+  $sql .= "WHERE id='" . $id ."'";
+  $sql .= "LIMIT 1";
+
+
+  $result = mysqli_query($db, $sql);
+  confirm_result_set($result);
+  if($result){
+    return true;
+  }else{
+    echo mysqli_error($db);
+      db_disconnect($db);
+      exit;
+  }
+  }
+function insert_admin($name,$email,$password,$confirm_password){
+  global $db;
+
+  $sql = "INSERT INTO admin ";
+  $sql .= "(name,email,password,confirm_password)";
+  $sql .= "VALUES (";
+  $sql .= "'" . $name. "',";
+  $sql .= "'" . $email. "',";
+  $sql .= "'" . $password. "',";
+  $sql .= "'" . $confirm_password. "'";
+  $sql .= ")";
+
+  $result = mysqli_query($db, $sql);
+  confirm_result_set($result);
+
+  if($result){
+  echo "<script> alert('Registeration Successful') </script>";
+  echo"<script>window.open('view_admin.php','_self')</script>";
+   }
+
+  else{
+    echo mysqli_error($db);
+    db_disconnect($db);
+    exit;
+}
+}
+
+
 ?>
