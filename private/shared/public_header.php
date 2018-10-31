@@ -49,7 +49,7 @@ if(!isset($page_title)){$page_title ="home";}
 				  				</ul>
 				  			</div>
 				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
-				  				<a href="tel:+234 080 3064 5528">+234 080 3064 5528</a>
+				  				<a href="tel:+234 080 3064 5528">+234 080 3064 5528  || 09037096290</a>
 				  				<a href="mailto:support@lusshub.com">support@lusshub.com</a>				
 				  			</div>
 				  		</div>			  					

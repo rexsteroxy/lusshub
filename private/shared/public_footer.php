@@ -19,7 +19,6 @@
 										<ul>
 											<li><a href="#">Team</a></li>
 											<li><a href="#">Pricing</a></li>
-											<li><a href="#">Contact</a></li>
 				        					<li><a href="contact.php">Contact</a></li>
 										</ul>
 									</div>										

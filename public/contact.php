@@ -156,9 +156,9 @@ include_once (SHARED_PATH .'/public_header.php');
 									<span class="lnr lnr-home"></span>
 								</div>
 								<div class="contact-details">
-									<h5>Binghamton, New York</h5>
+									<h5>Imo State University</h5>i
 									<p>
-										4343 Hinkle Deegan Lake Road
+										Bishops court owerri.
 									</p>
 								</div>
 							</div>
@@ -167,7 +167,7 @@ include_once (SHARED_PATH .'/public_header.php');
 									<span class="lnr lnr-phone-handset"></span>
 								</div>
 								<div class="contact-details">
-									<h5>00 (958) 9865 562</h5>
+									<h5>09037096290   || +234 080 3064 5528</h5>
 									<p>Mon to Fri 9am to 6 pm</p>
 								</div>
 							</div>
