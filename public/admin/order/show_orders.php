@@ -1,5 +1,5 @@
 <?php
-require_once('../../private/initialize.php');
+require_once('../../../private/initialize.php');
 $page_title = "show orders";
 include(SHARED_PATH . "/admin_header.php");
 $id = $_GET['id'] ?? 'welcome';
@@ -11,7 +11,7 @@ $order = find_one_order($id);
 ?>
 <div id="content">
  <div class="actions">
-      <a class="action" href="<?php echo url_for('/admin/view_orders.php')?>">back to list</a>
+      <a class="action" href="<?php echo url_for('/admin/order/view_orders.php')?>">back to list</a>
 </div>
 
 <div class="order show">

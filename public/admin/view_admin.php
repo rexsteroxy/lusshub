@@ -30,6 +30,7 @@ include(SHARED_PATH . '/admin_header.php');
 		<th>&nbsp;</th>
   	    <th>&nbsp;</th>
         <th>&nbsp;</th>
+        <th>&nbsp;</th>
 	</tr>
 	<?php while($admin = mysqli_fetch_assoc($admins)) {?>
 		<tr>

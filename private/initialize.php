@@ -24,8 +24,10 @@ define("SHARED_PATH",PRIVATE_PATH . '/shared');
 	require_once('functions.php');
   require_once('database.php');
   require_once('admin_query.php');
-  //require_once('validation.php');
+  require_once('validation_functions.php');
   require_once('public_query.php');
 
   $db = db_connect();
+
+  $errors=[];
 ?>

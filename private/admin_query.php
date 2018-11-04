@@ -1,4 +1,5 @@
 <?php
+//for the contact pages
 function find_all_contact(){
 	global $db;
 
@@ -124,9 +125,29 @@ function delete_admin($id) {
     }
   } 
 
+  function validate_admin($admin) {
+    $errors = [];
+
+    // admin_name
+    if(is_blank($admin['name'])) {
+      $errors[] = "Name cannot be blank.";
+    } elseif(!has_length($admin['name'], ['min' => 2, 'max' => 255])) {
+      $errors[] = "Name must be between 2 and 255 characters.";
+    }
+
+   
+
+    return $errors;
+  }
+
 function edith_admin($admin,$id){
 
   global $db;
+
+  $errows = validate_admin($admin);
+  if(!empty($errows)){
+    return $errows;
+  }
 
   $sql = "UPDATE admin SET ";
   $sql .= "name='" . $admin['name']."',";
@@ -146,16 +167,21 @@ function edith_admin($admin,$id){
       exit;
   }
   }
-function insert_admin($name,$email,$password,$confirm_password){
+function insert_admin($admin){
   global $db;
+
+$errows = validate_admin($admin);
+ if(!empty($errows)){
+    return $errows;
+  }
 
   $sql = "INSERT INTO admin ";
   $sql .= "(name,email,password,confirm_password)";
   $sql .= "VALUES (";
-  $sql .= "'" . $name. "',";
-  $sql .= "'" . $email. "',";
-  $sql .= "'" . $password. "',";
-  $sql .= "'" . $confirm_password. "'";
+  $sql .= "'" . $admin['name']. "',";
+  $sql .= "'" . $admin['email']. "',";
+  $sql .= "'" . $admin['password']. "',";
+  $sql .= "'" . $admin['confirm_password']. "'";
   $sql .= ")";
 
   $result = mysqli_query($db, $sql);

@@ -9,13 +9,19 @@ $id = $_GET['id'];
 
 
 if(is_post_request()){
-  $admin=[];
+$admin=[];
 $admin['name'] = $_POST['name'] ?? '';
 $admin['email'] = $_POST['email'] ?? '';
 $admin['password']= $_POST['password'] ?? '';
 
 $result = edith_admin($admin,$id);
-redirect_to(url_for('/admin/show_admin.php?id=' .$id));
+if ($result === true){
+  redirect_to(url_for('/admin/show_admin.php?id=' .$id));
+}else{
+  $errors = $result;
+  //echo var_dump($errows);
+}
+
 
 }else{
   $admin = find_one_admin($id);
@@ -39,7 +45,7 @@ redirect_to(url_for('/admin/show_admin.php?id=' .$id));
   <div class="admin edit">
     <h1>Edit admins</h1>
 
-    
+    <?php echo display_errors($errors) ?>
 
     <form action="<?php echo url_for('/admin/edit_admin.php?id='. h(u($id))); ?>" method="post">
       <dl>

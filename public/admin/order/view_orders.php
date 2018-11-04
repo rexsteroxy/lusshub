@@ -1,5 +1,5 @@
 <?php
-require_once('../../private/initialize.php');
+require_once('../../../private/initialize.php');
 
 $sales = find_all_sales();
 
@@ -40,8 +40,8 @@ include(SHARED_PATH . '/admin_header.php');
 			<td><?php echo h($sale['email']); ?></td>
 			<td><?php echo h($sale['orders']); ?></td>
 			<td><?php echo $sale['time']; ?></td>
-			<td><a class="action" href="<?php echo url_for('/admin/show_orders.php?id=' . $sale['id']) ;?>">CLICK TO VIEW</a></td>
-			<td><a class="action" href="<?php echo url_for('/admin/delete_orders.php?id='. h(u($sale['id'])))?>">CLICK TO DELETE</a></td>
+			<td><a class="action" href="<?php echo url_for('/admin//order/show_orders.php?id=' . $sale['id']) ;?>">CLICK TO VIEW</a></td>
+			<td><a class="action" href="<?php echo url_for('/admin/order/delete_orders.php?id='. h(u($sale['id'])))?>">CLICK TO DELETE</a></td>
 		</tr>
 	<?php }?>
 </table>

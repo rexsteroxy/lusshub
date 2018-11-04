@@ -4,17 +4,24 @@ $page_title = "admin_homepage";
 include_once(SHARED_PATH .'/admin_header.php');
 
 if(is_post_request()){
+  $admin=[];
+  $admin['name'] = $_POST['name'] ?? '';
+  $admin['email'] = $_POST['email'] ?? '';
+  $admin['password'] = $_POST['password'] ?? '';
+  $admin['confirm_password'] = $_POST['password_2'] ?? '';
 
-  $name = $_POST['name'] ?? '';
-  $email = $_POST['email'] ?? '';
-  $password = $_POST['password'] ?? '';
-  $confirm_password = $_POST['password_2'] ?? '';
 
-
-  $result=insert_admin($name,$email,$password,$confirm_password);
-  
+  $result=insert_admin($admin);
+  if ($result === true){
+  redirect_to(url_for('/admin/view_admin.php'));
  }
-
+ else{
+  $errors = $result;
+ }
+}
+else{
+  //display the blank form
+}
 ?>
 
     <div id="content">
@@ -23,7 +30,7 @@ if(is_post_request()){
   <div class="admin edit">
     <h1>Create New Admin</h1>
 
-    
+    <?php echo display_errors($errors);?>
 
     <form action="<?php echo url_for('/admin/create_admin.php'); ?>" method="post">
       <dl>
@@ -52,4 +59,4 @@ if(is_post_request()){
  
     </div>
 
-<?php include_once(SHARED_PATH .'/admin_footer.php');?>
+<?php include_once(SHARED_PATH .'/admin_footer.php') ; ?>
