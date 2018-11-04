@@ -1,5 +1,5 @@
 <?php
-require_once('../../private/initialize.php');
+require_once('../../../private/initialize.php');
 
 $admins = find_all_admin();
 
@@ -39,10 +39,10 @@ include(SHARED_PATH . '/admin_header.php');
 			<td><?php echo h($admin['email']); ?></td>
 			<td><?php echo h($admin['password']); ?></td>
 			<td><?php echo $admin['time']; ?></td>
-			<td><a class="action" href="<?php echo url_for('/admin/show_admin.php?id=' . $admin['id']) ;?>">CLICK TO VIEW</a></td>
-			<td><a class="action" href="<?php echo url_for('/admin/edit_admin.php?id=' . $admin['id']) ;?>">CLICK TO EDIT</a></td>
-			<td><a class="action" href="<?php echo url_for('/admin/delete_admin.php?id='. h(u($admin['id'])))?>">CLICK TO DELETE</a></td>
-			<td><a class="action" href="<?php echo url_for('/admin/create_admin.php') ;?>">CREATE NEW ADMIN</a></td>
+			<td><a class="action" href="<?php echo url_for('/admin/staff/show_admin.php?id=' . $admin['id']) ;?>">CLICK TO VIEW</a></td>
+			<td><a class="action" href="<?php echo url_for('/admin/staff/edit_admin.php?id=' . $admin['id']) ;?>">CLICK TO EDIT</a></td>
+			<td><a class="action" href="<?php echo url_for('/admin/staff/delete_admin.php?id='. h(u($admin['id'])))?>">CLICK TO DELETE</a></td>
+			<td><a class="action" href="<?php echo url_for('/admin/staff/create_admin.php') ;?>">CREATE NEW ADMIN</a></td>
 		</tr>
 	<?php }?>
 </table>

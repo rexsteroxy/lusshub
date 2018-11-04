@@ -1,5 +1,5 @@
 <?php
-require_once('../../private/initialize.php');
+require_once('../../../private/initialize.php');
 
 if(!isset($_GET['id'])){
   redirect_to(url_for('/admin/index.php'));
@@ -16,7 +16,7 @@ $admin['password']= $_POST['password'] ?? '';
 
 $result = edith_admin($admin,$id);
 if ($result === true){
-  redirect_to(url_for('/admin/show_admin.php?id=' .$id));
+  redirect_to(url_for('/admin/staff/show_admin.php?id=' .$id));
 }else{
   $errors = $result;
   //echo var_dump($errows);
@@ -40,14 +40,14 @@ if ($result === true){
 
 <div id="content">
 
-  <a class="back-link" href="<?php echo url_for('/admin/view_admin.php'); ?>">&laquo; Back to List</a>
+  <a class="back-link" href="<?php echo url_for('/admin/staff/view_admin.php'); ?>">&laquo; Back to List</a>
 
   <div class="admin edit">
     <h1>Edit admins</h1>
 
     <?php echo display_errors($errors) ?>
 
-    <form action="<?php echo url_for('/admin/edit_admin.php?id='. h(u($id))); ?>" method="post">
+    <form action="<?php echo url_for('/admin/staff/edit_admin.php?id='. h(u($id))); ?>" method="post">
       <dl>
         <dt>Name</dt>
         <dd><input type="text" name="name" value="<?php echo h($admin['name']) ?>"/></dd>
