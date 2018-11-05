@@ -13,6 +13,7 @@ $admin=[];
 $admin['name'] = $_POST['name'] ?? '';
 $admin['email'] = $_POST['email'] ?? '';
 $admin['password']= $_POST['password'] ?? '';
+$admin['confirm_password'] = $_POST['password_2'] ?? '';
 
 $result = edith_admin($admin,$id);
 if ($result === true){
@@ -59,6 +60,10 @@ if ($result === true){
       <dl>
         <dt>Password</dt>
         <dd><input type="text" name="password" value="<?php echo h($admin['password']) ?>"/></dd>
+      </dl>
+      <dl>
+        <dt>Confirm_Password</dt>
+        <dd><input type="text" name="password_2" value="<?php echo h($admin['confirm_password']) ?>"/></dd>
       </dl>
      
       <div id="operations">

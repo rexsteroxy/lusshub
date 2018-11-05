@@ -135,8 +135,34 @@ function delete_admin($id) {
       $errors[] = "Name must be between 2 and 255 characters.";
     }
 
-   
+    if(is_blank($admin['email'])) {
+      $errors[] = "Email cannot be blank.";
+    } 
+     elseif (!has_valid_email_format($admin['email'])) {
+      $errors[] = "Email must be a valid format.";
+    }
 
+    
+      if(is_blank($admin['password'])) {
+        $errors[] = "Password cannot be blank.";
+      } elseif (!has_length($admin['password'], array('min' => 12))) {
+        $errors[] = "Password must contain 12 or more characters";
+      } elseif (!preg_match('/[A-Z]/', $admin['password'])) {
+        $errors[] = "Password must contain at least 1 uppercase letter";
+      } elseif (!preg_match('/[a-z]/', $admin['password'])) {
+        $errors[] = "Password must contain at least 1 lowercase letter";
+      } elseif (!preg_match('/[0-9]/', $admin['password'])) {
+        $errors[] = "Password must contain at least 1 number";
+      } elseif (!preg_match('/[^A-Za-z0-9\s]/', $admin['password'])) {
+        $errors[] = "Password must contain at least 1 symbol";
+      }
+
+      if(is_blank($admin['confirm_password'])) {
+        $errors[] = "Confirm password cannot be blank.";
+      } elseif ($admin['password'] !== $admin['confirm_password']) {
+        $errors[] = "Password and confirm password must match.";
+      }
+    
     return $errors;
   }
 
@@ -149,10 +175,12 @@ function edith_admin($admin,$id){
     return $errows;
   }
 
+ $hashed_password = $admin['password'];
+
   $sql = "UPDATE admin SET ";
-  $sql .= "name='" . $admin['name']."',";
-  $sql .= "email='" . $admin['email']."',";
-  $sql .= "password='" . $admin['password']."'";
+  $sql .= "name='" . db_escape($db, $admin['name']) ."',";
+  $sql .= "email='" . db_escape($db, $admin['email'])."',";
+  $sql .= "password='" . db_escape($db, $hashed_password)."'";
   $sql .= "WHERE id='" . $id ."'";
   $sql .= "LIMIT 1";
 
@@ -175,13 +203,15 @@ $errows = validate_admin($admin);
     return $errows;
   }
 
+  $hashed_password = $admin['password'];
+
   $sql = "INSERT INTO admin ";
   $sql .= "(name,email,password,confirm_password)";
   $sql .= "VALUES (";
-  $sql .= "'" . $admin['name']. "',";
-  $sql .= "'" . $admin['email']. "',";
-  $sql .= "'" . $admin['password']. "',";
-  $sql .= "'" . $admin['confirm_password']. "'";
+  $sql .= "'" . db_escape($db, $admin['name']). "',";
+  $sql .= "'" . db_escape($db, $admin['email']). "',";
+  $sql .= "'" . db_escape($db, $hashed_password). "',";
+  $sql .= "'" . db_escape($db, $admin['confirm_password']). "'";
   $sql .= ")";
 
   $result = mysqli_query($db, $sql);

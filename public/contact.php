@@ -3,14 +3,14 @@ require_once ('../private/initialize.php');
 $page_title = "contact";
 include_once (SHARED_PATH .'/public_header.php');
  if(is_post_request()){
+$contact = [];
+ 	$contact['name'] = $_POST['name'] ?? '';
+	$contact['email'] = $_POST['email'] ?? '';
+	$contact['subject'] = $_POST['subject'] ?? '';
+	$contact['message'] = $_POST['message'] ?? '';
 
- 	$name = $_POST['name'] ?? '';
-	$email = $_POST['email'] ?? '';
-	$subject = $_POST['subject'] ?? '';
-	$message = $_POST['message'] ?? '';
 
-
- 	$result=insert_contact($name,$email,$subject,$message);
+ 	$result=insert_contact($contact);
  	
  }
 
