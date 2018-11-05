@@ -13,6 +13,7 @@ if(is_post_request()){
 
   $result=insert_admin($admin);
   if ($result === true){
+    $_SESSION['message']= 'Admin created successful';
   redirect_to(url_for('/admin/staff/view_admin.php'));
  }
  else{

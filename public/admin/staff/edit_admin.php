@@ -17,6 +17,7 @@ $admin['confirm_password'] = $_POST['password_2'] ?? '';
 
 $result = edith_admin($admin,$id);
 if ($result === true){
+   $_SESSION['message']= 'Admin edited successful';
   redirect_to(url_for('/admin/staff/show_admin.php?id=' .$id));
 }else{
   $errors = $result;
