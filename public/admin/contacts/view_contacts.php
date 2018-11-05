@@ -1,6 +1,6 @@
 <?php
 require_once('../../../private/initialize.php');
-
+require_login();
 $contacts = find_all_contact();
 
 $page_title = 'view contacts';

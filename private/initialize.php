@@ -27,6 +27,7 @@ define("SHARED_PATH",PRIVATE_PATH . '/shared');
   require_once('admin_query.php');
   require_once('validation_functions.php');
   require_once('public_query.php');
+  require_once('auth_functions.php');
 
   $db = db_connect();
 

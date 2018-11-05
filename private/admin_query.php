@@ -98,7 +98,19 @@ function find_one_admin($id){
   global $db;
   
   $sql = "SELECT * FROM admin ";
-  $sql .= "WHERE id='".$id."'";
+  $sql .= "WHERE id='". db_escape($db,$id)."'";
+  $result = mysqli_query($db, $sql);
+  confirm_result_set($result);
+  $admin=mysqli_fetch_assoc($result);
+    mysqli_free_result($result);
+    return $admin;
+}
+function find_admin_by_name($name){
+  global $db;
+  
+  $sql = "SELECT * FROM admin ";
+  $sql .= "WHERE name='". db_escape($db, $name)."'";
+  $sql .= "LIMIT 1";
   $result = mysqli_query($db, $sql);
   confirm_result_set($result);
   $admin=mysqli_fetch_assoc($result);
@@ -106,11 +118,12 @@ function find_one_admin($id){
     return $admin;
 }
 
+
 function delete_admin($id) {
     global $db;
 
     $sql = "DELETE FROM admin ";
-   $sql .= "WHERE id='" . $id ."'";
+   $sql .= "WHERE id='" . db_escape($db,$id) ."'";
     $sql .= "LIMIT 1";
     $result = mysqli_query($db, $sql);
 
@@ -133,6 +146,9 @@ function delete_admin($id) {
       $errors[] = "Name cannot be blank.";
     } elseif(!has_length($admin['name'], ['min' => 2, 'max' => 255])) {
       $errors[] = "Name must be between 2 and 255 characters.";
+    }
+    elseif (!has_unique_name($admin['name'], $admin['id'] ?? 0)) {
+      $errors[] = "Name not allowed. Try another.";
     }
 
     if(is_blank($admin['email'])) {
@@ -175,7 +191,7 @@ function edith_admin($admin,$id){
     return $errows;
   }
 
- $hashed_password = $admin['password'];
+$hashed_password = password_hash($admin['password'], PASSWORD_BCRYPT);
 
   $sql = "UPDATE admin SET ";
   $sql .= "name='" . db_escape($db, $admin['name']) ."',";
@@ -203,7 +219,8 @@ $errows = validate_admin($admin);
     return $errows;
   }
 
-  $hashed_password = $admin['password'];
+  $hashed_password = password_hash($admin['password'], PASSWORD_BCRYPT);
+  $c_hashed_password = password_hash($admin['confirm_password'], PASSWORD_BCRYPT);
 
   $sql = "INSERT INTO admin ";
   $sql .= "(name,email,password,confirm_password)";
@@ -211,7 +228,7 @@ $errows = validate_admin($admin);
   $sql .= "'" . db_escape($db, $admin['name']). "',";
   $sql .= "'" . db_escape($db, $admin['email']). "',";
   $sql .= "'" . db_escape($db, $hashed_password). "',";
-  $sql .= "'" . db_escape($db, $admin['confirm_password']). "'";
+  $sql .= "'" . db_escape($db, $c_hashed_password). "'";
   $sql .= ")";
 
   $result = mysqli_query($db, $sql);

@@ -1,5 +1,6 @@
 <?php
 require_once('../../../private/initialize.php');
+require_login();
 $page_title = "show orders";
 include(SHARED_PATH . "/admin_header.php");
 $id = $_GET['id'] ?? 'welcome';

@@ -1,5 +1,7 @@
 <?php
 require_once('../../private/initialize.php');
+//unset($_SESSION['admin_id']);
+require_login();
 $page_title = "admin_homepage";
 include_once(SHARED_PATH .'/admin_header.php');
 

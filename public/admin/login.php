@@ -3,7 +3,8 @@ require_once('../../private/initialize.php');
 
 $name = '';
 $password = '';
-
+//Amadiaustin.1@
+//Emetowinner.2@
 if(is_post_request()) {
 
   $name = $_POST['name'] ?? '';
@@ -16,10 +17,24 @@ if(is_post_request()) {
   if(is_blank($password)) {
     $errors[] = "Password cannot be blank.";
   }
-
-$_SESSION['name'] = $name;
-
-redirect_to(url_for('admin/index.php'));
+  if(empty($errors)){
+    $admin = find_admin_by_name($name);
+      if($admin){
+          if(password_verify($password , $admin['password'])){
+              log_in_admin($admin);
+              redirect_to(url_for('admin/index.php'));
+          }else{
+            //username found but password does not match
+            $errors[] = "log in not successful";
+            
+          }
+      }
+      else{
+        //no username was found
+         $errors[] = "log in not successful";
+            
+      }
+  }
 
 }
 

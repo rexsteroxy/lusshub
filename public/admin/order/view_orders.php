@@ -1,6 +1,6 @@
 <?php
 require_once('../../../private/initialize.php');
-
+require_login();
 $sales = find_all_sales();
 
 $page_title = 'view sales';
