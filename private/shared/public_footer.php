@@ -16,6 +16,10 @@
 									<div class="col">
 										<ul>
 											<li><a href="#">Team</a></li>
+<<<<<<< HEAD
+=======
+											<li><a href="#">Pricing</a></li>
+>>>>>>> 5c5e7b4e028e93c8e09a97b4ebd5b4e93f3d25c7
 				        					<li><a href="contact.php">Contact</a></li>
 										</ul>
 									</div>										
