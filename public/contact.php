@@ -184,17 +184,14 @@ $contact = [];
 						<div class="col-lg-8">
 							<form  method="POST" action="contact.php" enctype="multipart/form-data">
 		                        <div class="row">
-		                            <div class="col-lg-12 d-flex flex-column">
+		                            <div class="col-lg-6 d-flex flex-column">
 		                                <input name="name" type="text" placeholder="Your name"  class="form-control mt-20" required="yes" >
-		                            </div>
-		                            <div class="col-lg-12 d-flex flex-column">
-		                                <input name="email" type="text" placeholder="enter your email"  class="form-control mt-20" required="yes" >
-		                            </div>
-		                            <div class="col-lg-12 d-flex flex-column">
+		                                 <input name="email" type="text" placeholder="enter your email"  class="form-control mt-20" required="yes" >
+
 		                                <input name="subject" type="text" placeholder="enter your subject"  class="form-control mt-20" required="yes" >
 		                            </div>
 		                            
-		                            <div class="col-lg-12 flex-column">
+		                            <div class="col-lg-6 form-group">
 		                                <textarea rows="5" class="form-control mt-20" name="message" placeholder="message" required="yes"></textarea>
 		                            </div>
 
