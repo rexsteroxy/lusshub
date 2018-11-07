@@ -50,7 +50,9 @@
 			  <div class="container main-menu">
 				  <div class="row align-items-center justify-content-between d-flex">
 					<div id="logo">
-					  <a href="index.php"><img src="img/logo.png" alt=""></a>
+					  <a href="index.php"><h4>
+								Connect || <b>L</b>ss<b>H</b>ub
+							</h4></a>
 					</div>
 					<nav id="nav-menu-container">
 					  <ul class="nav-menu">
@@ -74,6 +76,7 @@
 			  </div>
 			</header><!-- #header -->
 
+
 			<!-- start banner Area -->
 			<section class="banner-area relative" id="home">	
 				<div class="overlay overlay-bg"></div>
@@ -81,102 +84,129 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								QS				
+								Contact Us				
 							</h1>	
-							<p class="text-white link-nav"><a href="index.php">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="services.php"> Quick sales</a></p>
+							<p class="text-white link-nav"><a href="index.php">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="contact.php"> Contact Us</a></p>
 						</div>	
 					</div>
 				</div>
 			</section>
 			<!-- End banner Area -->
-
-
-			<!-- Start discount-section Area -->
-			<section class="discount-section-area relative section-gap">
-				<div class="overlay overlay-bg"></div>
+			
+			
+			<!-- Start service Area -->
+			<section class="service-area section-gap pspcover" id="service">
 				<div class="container">
-					<div class="row align-items-center justify-content-between no-gutters">
-						<div class="col-lg-6 discount-left">
-							<h1 class="text-white">Enjoy 25% Seasonal Discount!</h1>
-							<p class="text-white">
-								inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial.
+					<div class="row justify-content-center">
+						<div class="col-md-12 pb-50 header-text text-center">
+							<h1 class="mb-10">PSPs cover</h1>
+							<p>
+								all of our PSPs enjoy on hand quality service from us.
 							</p>
-							<a href="#" class="header-btn">Order Service Now</a>
 						</div>
-						<div class="col-lg-5 discount-right">
-							<h4 class="text-white">Get a free Estimate</h4>
-		                    <form class="booking-form" id="myForm" action="#">
-		                        <div class="row">
-		                            <div class="col-lg-12 d-flex flex-column">
-		                                <input name="name" placeholder="Your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" class="form-control mt-20" required="" type="text">
-		                            </div>
-		                            <div class="col-lg-6 d-flex flex-column">
-		                                <input name="phone" placeholder="Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" class="form-control mt-20" required="" type="text">
-		                            </div>
-		                            <div class="col-lg-6 d-flex flex-column">
-		                                <input name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" class="form-control mt-20" required="" type="email">
-		                            </div>
-		                            <div class="col-lg-12 flex-column">
-		                                <textarea rows="5" class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-		                            </div>
-
-		                            <div class="col-lg-12 d-flex justify-content-end send-btn">
-		                                <button class="genric-btn primary mt-20 text-uppercase ">Get Estimate</button>
-		                            </div>
-		                        </div>
-		                    </form>
+					</div>						
+					<div class="row">
+						<div class="col-lg-3 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/o1.jpg" alt="">									
+								</div>
+								<h4>Repairs</h4>
+								<p>
+									With us you dont need to worry when your system damages or when natural desaster happens. <a href="Click for more">more</a>
+								</p>
+							</div>
 						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/o2.jpg" alt="">									
+								</div>
+								<h4>Maintainace</h4>
+								<p>
+									We keep your systems upto date with the leading technologies<a href="Click for more">more</a>
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/o3.jpg" alt="">									
+								</div>
+								<h4>Development</h4>
+								<p>
+									We help you build up the most reliable system network. <a href="click for more">more</a>
+								</p>
+							</div>
+						</div>	
+						<div class="col-lg-3 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/o4.jpg" alt="">									
+								</div>
+								<h4>Consultance</h4>
+								<p>
+									Get a first class insight with our IT experts. <a href="Click for more">more</a>
+								</p>
+							</div>
+						</div>																		
 					</div>
 				</div>	
 			</section>
-			<!-- End discount-section Area -->
+			<!-- End service Area -->
 			
 			
-			<section class="qs-area section-gap" id="qs">
+			<!-- Start work-process Area -->
+			<section class="work-process-area pt-120 ">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-7">
 							<div class="title text-center">
-								<h1 class="mb-10 text-white">Quick sales</h1>
-								<p class="text-white">sales on <b>L</b>uss<b>H</b>ub is always like a seasional sale.</p>
+								<h1 class="mb-10">How it Works</h1>
+								<p>You're one step to jpoining the biggest chain of PSPs centralized system.</p>
 							</div>
 						</div>
-					</div>						
+					</div>	
+					<div class="total-work-process d-flex flex-wrap justify-content-around align-items-center">
+						<div class="single-work-process">
+							<div class="work-icon-box">
+								<span class="lnr lnr-train"></span>
+							</div>
+							<p class="caption">Signup</p>
+						</div>
+						<div class="work-arrow">
+							<img src="img/arrow.png" alt="">
+						</div>
+						<div class="single-work-process">
+							<div class="work-icon-box">
+								<span class="lnr lnr-layers"></span>
+							</div>
+							<p class="caption">Join a division</p>
+						</div>
+						<div class="work-arrow">
+							<img src="img/arrow.png" alt="">
+						</div>
+						<div class="single-work-process">
+							<div class="work-icon-box">
+								<span class="lnr lnr-database"></span>
+							</div>
+							<p class="caption">Update PS board</p>
+						</div>
+						<div class="work-arrow">
+							<img src="img/arrow.png" alt="">
+						</div>
+						<div class="single-work-process">
+							<div class="work-icon-box">
+								<span class="lnr lnr-smile"></span>
+							</div>
+							<p class="caption">You're connected</p>
+						</div>											
 					<div class="row">
-						<div class="active-qs-carusel">
-							<div class="single-qs item">
-								<img class="mx-auto" src="img/luss1.jpg" alt="">
-								<h5>Mark Alviro Wiens</h5>
-								<p>
-									CEO at Google
-								</p>
-							</div>
-							<div class="single-qs item">
-								<img class="mx-auto" src="img/luss2.jpg" alt="">
-								<h5>Mark Alviro Wiens</h5>
-								<p>
-									CEO at Google
-								</p>
-							</div>
-							<div class="single-qs item">
-								<img class="mx-auto" src="img/luss3.jpg" alt="">
-								<h5>Mark Alviro Wiens</h5>
-								<p>
-									CEO at Google
-								</p>
-							</div>															
-							<div class="single-qs item">
-								<img class="mx-auto" src="img/luss4.jpg" alt="">
-								<h5>Mark Alviro Wiens</h5>
-								<p>
-									CEO at Google
-								</p>
-							</div>
-						</div>
+						<div class="col"></div>
 					</div>
 				</div>	
 			</section>
-			<!-- End qs Area -->		
+			<!-- End work-process Area -->
 
 			<!-- start footer Area -->		
 			<footer class="footer-area section-gap">
@@ -256,6 +286,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     		<script src="js/jquery.circlechart.js"></script>								
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
-			<script src="js/sales/active.js"></script>
 		</body>
 	</html>
