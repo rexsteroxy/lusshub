@@ -17,9 +17,8 @@ if(is_post_request()){
 
 
 ?>
-
-			<!-- start banner Area -->
-			<section class="banner-area relative" id="home">	
+<!-- start banner Area -->
+<section class="banner-area relative" id="home">	
 				<div class="overlay overlay-bg"></div>
 				<div class="container">				
 					<div class="row d-flex align-items-center justify-content-center">
@@ -49,24 +48,23 @@ if(is_post_request()){
 						</div>
 						<div class="col-lg-5 discount-right">
 							<h4 class="text-white">Get a free Estimate</h4>
-		                    <form  method="POST" action="sales.php" enctype="multipart/form-data">
+		                    <form class="booking-form" id="myForm" action="#">
 		                        <div class="row">
 		                            <div class="col-lg-12 d-flex flex-column">
-		                                <input name="name" type="text" placeholder="Your name"  class="form-control mt-20" required="yes" >
+		                                <input name="name" placeholder="Your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" class="form-control mt-20" required="" type="text">
 		                            </div>
-		                            <div class="col-lg-12 d-flex flex-column">
-		                                <input name="phone" type="number" placeholder="enter your email"  class="form-control mt-20" required="yes" >
+		                            <div class="col-lg-6 d-flex flex-column">
+		                                <input name="phone" placeholder="Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" class="form-control mt-20" required="" type="text">
 		                            </div>
-		                            <div class="col-lg-12 d-flex flex-column">
-		                                <input name="email" type="text" placeholder="enter your subject"  class="form-control mt-20" required="yes" >
+		                            <div class="col-lg-6 d-flex flex-column">
+		                                <input name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" class="form-control mt-20" required="" type="email">
 		                            </div>
-		                            
 		                            <div class="col-lg-12 flex-column">
-		                                <textarea rows="5" class="form-control mt-20" name="message" placeholder="message" required="yes"></textarea>
+		                                <textarea rows="5" class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
 		                            </div>
 
 		                            <div class="col-lg-12 d-flex justify-content-end send-btn">
-		                                <button class="genric-btn primary mt-20 text-uppercase "  type="submit" >Submit</button>
+		                                <button class="genric-btn primary mt-20 text-uppercase ">Get Estimate</button>
 		                            </div>
 		                        </div>
 		                    </form>
@@ -123,5 +121,5 @@ if(is_post_request()){
 			</section>
 			<!-- End qs Area -->		
 
-			<!-- start footer Area -->		
+			<!-- start footer Area -->				
 			<?php include_once(SHARED_PATH . '/public_footer.php');	
