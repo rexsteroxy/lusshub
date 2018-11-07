@@ -75,7 +75,7 @@ if(!isset($page_title)){$page_title ="home";}
 				          <li><a href="sales.php">Quick Sales</a></li>
 				          <li class="menu-has-children">Account
 				            <ul>
-				              <li><a href="login.php"><i class="fa fa-sign-in"></i>Login</a></li>
+				              <li data-toggle="modal" data-target="#login"><i class="fa fa-sign-in"></i>Login</li>
 				              <li><a href="register.php"><i class="lnr lnr-user"></i> Register</a></li>
 				            </ul>
 				          </li>	
@@ -84,3 +84,29 @@ if(!isset($page_title)){$page_title ="home";}
 			    	</div>
 			    </div>
 			  </header><!-- #header -->
+				<!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+			<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+									<div class="col-lg-6 form-group">
+										<input name="userName" placeholder="userName" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+									
+										<input name="password" placeholder="password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+
+									</div>
+							</form>	
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="genric-btn primary circle">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
