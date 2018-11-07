@@ -1,3 +1,4 @@
+<<<<<<< HEAD:about.php
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
@@ -116,6 +117,25 @@
 						<span class="lnr lnr-arrow-right"></span>
 						<a href="about.php"> About Us</a>
 					</p>
+=======
+<?php
+require_once ('../private/initialize.php');
+ $page_title="about";
+include_once (SHARED_PATH .'/public_header.php');
+?>
+			<!-- start banner Area -->
+			<section class="banner-area relative" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1 class="text-white">
+								About Us				
+							</h1>	
+							<p class="text-white link-nav"><a href="index.php">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.php"> About Us</a></p>
+						</div>	
+					</div>
+>>>>>>> f82c752e92106a510ae9496a3164815b6424113e:public/about.php
 				</div>
 			</div>
 		</div>
@@ -417,6 +437,7 @@
 							<img class="mx-auto" src="img/l5.png" alt="">
 						</a>
 					</div>
+<<<<<<< HEAD:about.php
 				</div>
 			</div>
 		</div>
@@ -529,3 +550,11 @@
 </body>
 
 </html>
+=======
+				</div>	
+			</section>
+			<!-- End brands Area -->								
+				
+			
+<?php include_once(SHARED_PATH . '/public_footer.php');	
+>>>>>>> f82c752e92106a510ae9496a3164815b6424113e:public/about.php
