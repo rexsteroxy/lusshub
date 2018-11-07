@@ -1,0 +1,25 @@
+.padUser{ 
+    margin-top:50px!important;
+    margin-bottom:50px;
+}
+.userData{
+    border: 1px solid #F9F9FF;
+    border-radius: 15px;
+}
+.pad-top{
+    padding-top: 15px;
+    margin-left: -9px;
+}
+.pad-bottom{
+    padding-bottom: 15px;
+}
+.profile-img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.user-item{
+    border-radius: 40px;
+}
+.pad-t{
+    padding: 20px;
+}
