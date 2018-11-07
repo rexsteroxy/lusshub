@@ -60,11 +60,11 @@ if ($result === true){
       </dl>
       <dl>
         <dt>Password</dt>
-        <dd><input type="text" name="password" value="<?php echo h($admin['password']) ?>"/></dd>
+        <dd><input type="password"  name="password" value=""/></dd>
       </dl>
       <dl>
         <dt>Confirm_Password</dt>
-        <dd><input type="text" name="password_2" value="<?php echo h($admin['confirm_password']) ?>"/></dd>
+        <dd><input type="password" name="password_2" value=""/></dd>
       </dl>
      
       <div id="operations">

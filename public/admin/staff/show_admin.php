@@ -28,10 +28,6 @@ $admin = find_one_admin($id);
         <dt>Email</dt>
         <dd><?php echo h($admin['email']); ?></dd>
       </dl>
-      <dl>
-        <dt>Password</dt>
-        <dd><?php echo h($admin['password']); ?></dd>
-      </dl>
       
         <dt>Time</dt>
         <dd><?php echo $admin['time'] ; ?></dd>

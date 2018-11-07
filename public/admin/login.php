@@ -4,7 +4,7 @@ require_once('../../private/initialize.php');
 $name = '';
 $password = '';
 //Amadiaustin.1@
-//Emetowinner.2@
+//Emetowinner.22@
 if(is_post_request()) {
 
   $name = $_POST['name'] ?? '';
