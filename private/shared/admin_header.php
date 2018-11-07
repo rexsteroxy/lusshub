@@ -18,6 +18,8 @@ if (!isset($page_title)){$page_title="admin_homepage";}
 
     <navigation>
       <ul>
+        <li>USER: <?php echo $_SESSION['name'] ?? '' ;?></li>
         <li><a href="<?php echo url_for('/admin/index.php'); ?>">Menu</a></li>
+        <li><a href="<?php echo url_for('/admin/logout.php'); ?>">Logout</a></li>
       </ul>
     </navigation>

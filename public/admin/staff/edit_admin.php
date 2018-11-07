@@ -1,6 +1,6 @@
 <?php
-require_once('../../private/initialize.php');
-
+require_once('../../../private/initialize.php');
+require_login();
 if(!isset($_GET['id'])){
   redirect_to(url_for('/admin/index.php'));
 }
@@ -9,13 +9,21 @@ $id = $_GET['id'];
 
 
 if(is_post_request()){
-  $admin=[];
+$admin=[];
 $admin['name'] = $_POST['name'] ?? '';
 $admin['email'] = $_POST['email'] ?? '';
 $admin['password']= $_POST['password'] ?? '';
+$admin['confirm_password'] = $_POST['password_2'] ?? '';
 
 $result = edith_admin($admin,$id);
-redirect_to(url_for('/admin/show_admin.php?id=' .$id));
+if ($result === true){
+   $_SESSION['message']= 'Admin edited successful';
+  redirect_to(url_for('/admin/staff/show_admin.php?id=' .$id));
+}else{
+  $errors = $result;
+  //echo var_dump($errows);
+}
+
 
 }else{
   $admin = find_one_admin($id);
@@ -34,14 +42,14 @@ redirect_to(url_for('/admin/show_admin.php?id=' .$id));
 
 <div id="content">
 
-  <a class="back-link" href="<?php echo url_for('/admin/view_admin.php'); ?>">&laquo; Back to List</a>
+  <a class="back-link" href="<?php echo url_for('/admin/staff/view_admin.php'); ?>">&laquo; Back to List</a>
 
   <div class="admin edit">
     <h1>Edit admins</h1>
 
-    
+    <?php echo display_errors($errors) ?>
 
-    <form action="<?php echo url_for('/admin/edit_admin.php?id='. h(u($id))); ?>" method="post">
+    <form action="<?php echo url_for('/admin/staff/edit_admin.php?id='. h(u($id))); ?>" method="post">
       <dl>
         <dt>Name</dt>
         <dd><input type="text" name="name" value="<?php echo h($admin['name']) ?>"/></dd>
@@ -52,7 +60,11 @@ redirect_to(url_for('/admin/show_admin.php?id=' .$id));
       </dl>
       <dl>
         <dt>Password</dt>
-        <dd><input type="text" name="password" value="<?php echo h($admin['password']) ?>"/></dd>
+        <dd><input type="password"  name="password" value=""/></dd>
+      </dl>
+      <dl>
+        <dt>Confirm_Password</dt>
+        <dd><input type="password" name="password_2" value=""/></dd>
       </dl>
      
       <div id="operations">
