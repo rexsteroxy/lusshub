@@ -68,7 +68,6 @@ $contact = [];
 							</div>														
 						</div>
 						<div class="col-lg-8">
-<<<<<<< HEAD
 							<form  method="POST" action="contact.php" enctype="multipart/form-data">
 		                        <div class="row">
 		                            <div class="col-lg-6 d-flex flex-column">
@@ -81,20 +80,7 @@ $contact = [];
 		                            <div class="col-lg-6 form-group">
 		                                <textarea rows="5" class="form-control mt-20" name="message" placeholder="message" required="yes"></textarea>
 		                            </div>
-=======
-							<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
-								<div class="row">	
-									<div class="col-lg-6 form-group">
-										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
-									
-										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
->>>>>>> 36337c523bd4f27c37df7da5edaa130db8df7561
 
-										<input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
-									</div>
-									<div class="col-lg-6 form-group">
-										<textarea class="common-textarea form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>				
-									</div>
 									<div class="col-lg-12">
 										<div class="alert-msg" style="text-align: left;"></div>
 										<button class="genric-btn primary circle" style="float: right;">Send Message</button>											
