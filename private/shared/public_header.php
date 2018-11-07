@@ -50,6 +50,7 @@ if(!isset($page_title)){$page_title ="home";}
 				  			</div>
 				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
 				  				<a href="tel:+234 080 3064 5528">+234 080 3064 5528</a>
+				  				<a href="tel:+234 080 3064 5528">+234 090 370 962 90</a>
 				  				<a href="mailto:support@lusshub.com">support@lusshub.com</a>				
 				  			</div>
 				  		</div>			  					
@@ -71,7 +72,7 @@ if(!isset($page_title)){$page_title ="home";}
 				              <li><a href="#">Abia</a></li>
 				            </ul>
 				          </li>	
-				          <li><a href="sales.php">QS</a></li>
+				          <li><a href="sales.php">Quick Sales</a></li>
 				          <li class="menu-has-children">Account
 				            <ul>
 				              <li><a href="login.php"><i class="fa fa-sign-in"></i>Login</a></li>

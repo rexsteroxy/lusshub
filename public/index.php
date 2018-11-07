@@ -13,7 +13,7 @@
 								Avaliable, Access		
 							</h1>
 							<h6 class="">
-								Jion the biggest chain of IT PSPs providing PS to the world.  
+								Join the biggest chain of IT PSP's providing PS to the world.  
 							</h6><br>
 							<a href="#" class="primary-btn header-btn text-uppercase mt-0">Get Started</a>
 							<hr><br> <hr><br>
@@ -35,13 +35,17 @@
 						<div class="menu-content pb-60 col-lg-7">
 							<div class="title text-center">
 								<h1 class="mb-10 text-white">Quick sales</h1>
-								<p class="text-white">sales on <b>L</b>uss<b>H</b>ub is always like a auction.</p>
+								
 							</div>
 						</div>
 					</div>						
 					<div class="row">
 						<div class="active-qs-carusel">
 							<div class="single-qs item">
+								<div class="title text-center">
+								<h1 class="mb-10 text-black">QS</h1>
+								<p class="text-black">Available Laptop For Sale---<a href="sales.php">Click To View More</a></p>
+							</div>
 								<img class="mx-auto" src="img/luss1.jpg" alt="">
 								<h5>Mark Alviro Wiens</h5>
 								<p>
@@ -49,6 +53,10 @@
 								</p>
 							</div>
 							<div class="single-qs item">
+								<div class="title text-center">
+								<h1 class="mb-10 text-black">QS</h1>
+								<p class="text-black">Available Laptop For Sale---<a href="sales.php">Click To View More</a></p>
+							</div>
 								<img class="mx-auto" src="img/luss2.jpg" alt="">
 								<h5>Mark Alviro Wiens</h5>
 								<p>
@@ -56,6 +64,10 @@
 								</p>
 							</div>
 							<div class="single-qs item">
+								<div class="title text-center">
+								<h1 class="mb-10 text-black">QS</h1>
+								<p class="text-black">Available Laptop For Sale---<a href="sales.php">Click To View More</a></p>
+							</div>
 								<img class="mx-auto" src="img/luss3.jpg" alt="">
 								<h5>Mark Alviro Wiens</h5>
 								<p>
@@ -63,6 +75,10 @@
 								</p>
 							</div>															
 							<div class="single-qs item">
+								<div class="title text-center">
+								<h1 class="mb-10 text-black">QS</h1>
+								<p class="text-black">Available Laptop For Sale---<a href="sales.php">Click To View More</a></p>
+							</div>
 								<img class="mx-auto" src="img/luss4.jpg" alt="">
 								<h5>Mark Alviro Wiens</h5>
 								<p>
