@@ -84,6 +84,7 @@ table.list tr td {
 }
 
 table.list tr th {
+  width: 600px;
   border: 1px solid #0055DD;
   background: #0055DD;
   color: white;

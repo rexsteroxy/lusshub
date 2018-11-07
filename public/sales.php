@@ -4,14 +4,14 @@ $page_title="sales";
 include_once (SHARED_PATH .'/public_header.php');
 
 if(is_post_request()){
+$sale =[];
+ 	$sale['name'] = $_POST['name'] ?? '';
+	$sale['number'] = $_POST['phone'] ?? '';
+	$sale['email'] = $_POST['email'] ?? '';
+	$sale['message'] = $_POST['message'] ?? '';
 
- 	$name = $_POST['name'] ?? '';
-	$number = $_POST['phone'] ?? '';
-	$email = $_POST['email'] ?? '';
-	$message = $_POST['message'] ?? '';
 
-
- 	$result=insert_sales($name,$number,$email,$message);
+ 	$result=insert_sales($sale);
  	
  }
 

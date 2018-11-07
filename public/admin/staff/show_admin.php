@@ -1,5 +1,6 @@
 <?php
-require_once('../../private/initialize.php');
+require_once('../../../private/initialize.php');
+require_login();
 $page_title = "show admins";
 include(SHARED_PATH . "/admin_header.php");
 $id = $_GET['id'] ?? 'welcome';
@@ -11,7 +12,7 @@ $admin = find_one_admin($id);
 ?>
 <div id="content">
  <div class="actions">
-      <a class="action" href="<?php echo url_for('/admin/view_admin.php')?>">back to list</a>
+      <a class="action" href="<?php echo url_for('/admin/staff/view_admin.php')?>">back to list</a>
 </div>
 
 <div class="admin show">
@@ -26,10 +27,6 @@ $admin = find_one_admin($id);
       <dl>
         <dt>Email</dt>
         <dd><?php echo h($admin['email']); ?></dd>
-      </dl>
-      <dl>
-        <dt>Password</dt>
-        <dd><?php echo h($admin['password']); ?></dd>
       </dl>
       
         <dt>Time</dt>

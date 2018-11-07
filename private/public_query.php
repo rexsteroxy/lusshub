@@ -1,14 +1,14 @@
 <?php
-function insert_contact($name,$email,$subject,$message){
+function insert_contact($contact){
 	global $db;
 
 	$sql = "INSERT INTO contact ";
 	$sql .= "(name,email,subject,message)";
 	$sql .= "VALUES (";
-	$sql .= "'" . $name. "',";
-	$sql .= "'" . $email. "',";
-	$sql .= "'" . $subject. "',";
-	$sql .= "'" . $message. "'";
+	$sql .= "'" . db_escape($db, $contact['name']). "',";
+	$sql .= "'" . db_escape($db, $contact['email']). "',";
+	$sql .= "'" . db_escape($db, $contact['subject']). "',";
+	$sql .= "'" . db_escape($db, $contact['message']). "'";
 	$sql .= ")";
 
 	$result = mysqli_query($db, $sql);
@@ -26,16 +26,16 @@ function insert_contact($name,$email,$subject,$message){
 }
 }
 
-function insert_sales($name,$number,$email,$message){
+function insert_sales($sale){
 	global $db;
 
 	$sql = "INSERT INTO sales ";
 	$sql .= "(name,number,email,orders)";
 	$sql .= "VALUES (";
-	$sql .= "'" . $name. "',";
-	$sql .= "'" . $number. "',";
-	$sql .= "'" . $email. "',";
-	$sql .= "'" . $message. "'";
+	$sql .= "'" . db_escape($db, $sale['name']). "',";
+	$sql .= "'" . db_escape($db, $sale['number']). "',";
+	$sql .= "'" . db_escape($db, $sale['email']). "',";
+	$sql .= "'" . db_escape($db, $sale['message']). "'";
 	$sql .= ")";
 
 	$result = mysqli_query($db, $sql);
